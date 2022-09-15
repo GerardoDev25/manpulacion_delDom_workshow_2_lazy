@@ -15,7 +15,7 @@ const createImageNode = () => {
 
   image.className = 'mx-auto';
   image.width = 320;
-  image.src = `https://randomfox.ca/images/${ramdom()}.jpg`; // todo
+  image.dataset.src = `https://randomfox.ca/images/${ramdom()}.jpg`; // todo
 
   container.appendChild(image);
   return container;
